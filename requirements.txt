@@ -3,3 +3,6 @@ wbdata
  matplotlib
  seaborn 
  ruptures
+ statsmodels
+ numpy
+ 
