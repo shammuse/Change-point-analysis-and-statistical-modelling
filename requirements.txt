@@ -5,4 +5,4 @@ wbdata
  ruptures
  statsmodels
  numpy
- 
+ sklearn
