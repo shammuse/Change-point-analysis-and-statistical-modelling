@@ -2,3 +2,4 @@ wbdata
  pandas 
  matplotlib
  seaborn 
+ ruptures
