@@ -146,25 +146,11 @@ class BrentOilPricesEDA:
         plt.show()
         logging.info("ACF and PACF plots generated successfully.")
 
-   import matplotlib.pyplot as plt
-import seaborn as sns
-import logging
-
-def plot_histogram(self, column='Price', cmap='viridis'):
-    """
-    Plots a histogram for the specified column with a colormap and
-    includes vertical lines for mean, median, minimum, and maximum values.
-
-    Parameters
-    ----------
-    column : str, optional
-        The column name to plot (default is 'Price').
-    cmap : str, optional
-        The colormap to use for the histogram (default is 'viridis').
-    """
-    if self.data is None:
-        logging.warning("Data not loaded. Please load data before calling plot_histogram.")
-        return
+    def plot_histogram(self, column='Price', cmap='viridis'):
+       
+       if self.data is None:
+        logging.warning("Data not loaded. Please load data before caling plot_histogram.")
+       return
 
     plt.figure(figsize=(10, 6))
 
@@ -200,6 +186,7 @@ def plot_histogram(self, column='Price', cmap='viridis'):
     plt.show()
 
     logging.info("Histogram plot generated successfully with statistics and colormap.")
+
 
     def plot_cusum(self, column_name='Price'):
         """
