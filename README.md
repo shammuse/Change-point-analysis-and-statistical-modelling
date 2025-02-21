@@ -1,6 +1,10 @@
 # Change-point-analysis-and-statistical-modelling
-# brent-oil-impact-analysis-and-price-forecasting
-This project analyzes and forecasts Brent oil prices by examining the effects of significant political, economic, and geopolitical events, such as OPEC policies, international sanctions, and technological advancements. Through advanced modeling techniques, it aims to provide actionable insights for investors, policymakers, and energy companies to enhance strategic planning and risk management in the volatile oil market.
+
+This project analyzes and forecasts Brent oil prices by examining the effects of significant political, economic, 
+and geopolitical events, such as OPEC policies, international sanctions, and technological advancements.
+ Through advanced modeling techniques, it aims to provide actionable insights for investors, 
+ policymakers, and energy companies to enhance 
+ strategic planning and risk management in the volatile oil market.
 
 ## Core Objectives
 This project focuses on:
@@ -36,10 +40,9 @@ pip install numpy
 
 1. Clone the Repository:
 >>>>
-    git clone https://github.com/getahunTiruneh/Brent-Oil-Impact-Analysis-and-Price-Forecasting
-    .git`
+    git clone https://github.com/shammuse/Change-point-analysis-and-statistical-modelling
 >>>>
-    cd Brent-Oil-Impact-Analysis-and-Price-Forecasting
+    cd Change-point-analysis-and-statistical-modelling
 >>>>
 
 2. Set up the Virtual Environment:
