@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #343028;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  display: flex;
+  justify-content: space-between; /* Space between columns */
+  margin: 0 auto; /* Center the container horizontally */
+  width: 90%; /* Adjust overall width as needed */
+}
+
+.chart-column {
+  flex: 0 0 65%; /* 60% width */
+  margin-right: 10px; /* Add space between the columns */
+}
+
+.forecast-column {
+  flex: 0 0 30%; /* 30% width */
+}
+.card-container {
+  display: flex;
+  justify-content: space-evenly; /* Space between columns */
+  margin: 0 auto; /* Center the container horizontally */
+  width: 90%; /* Adjust overall width as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a bottom shadow */
+  border-radius: 8px; /* Optional: adds rounded corners */
+  padding: 10px; /* Optional: adds inner spacing */
+  margin-top: 20px;
+  padding: 10px;
+}
+.filter-container {
+  margin-bottom: 30px;
+}
+.EventFilter-column {
+  flex: 0 0 35%; /* 60% width */
+  margin-right: 10px; /* Add space between the columns */
+  margin-top: 5px;
+}
+.MetricsCard-column {
+  flex: 0 0 35%; /* 30% width */
+}
+/* Optional styling for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack columns vertically on smaller screens */
+    width: 100%; /* Adjust the width to fit the screen */
+  }
+  .chart-column,
+  .forecast-column {
+    margin-right: 0; /* Remove right margin */
+    flex: 1 1 auto; /* Adjust width for smaller screens */
+  }
+}
